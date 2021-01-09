@@ -42,7 +42,7 @@ export default function App() {
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> nine pigs
+        <strong>{results.length}</strong> near pig
       </p>
       <hr></hr>
       {results
